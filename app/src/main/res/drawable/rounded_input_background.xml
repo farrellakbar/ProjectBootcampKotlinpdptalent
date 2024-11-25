@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="#50000000" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+
+    <item android:top="2dp">
+        <shape>
+            <solid android:color="@color/warna5" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+</layer-list>

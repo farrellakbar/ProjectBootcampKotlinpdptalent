@@ -1,0 +1,29 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow -->
+    <item>
+        <shape>
+            <solid android:color="#50000000" /> <!-- Warna bayangan -->
+            <corners
+                android:topLeftRadius="16dp"
+                android:topRightRadius="16dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+
+    <!-- Gradasi Background -->
+    <item android:top="4dp"> <!-- Offset untuk bayangan -->
+        <shape>
+            <gradient
+                android:angle="90"
+                android:startColor="#5C2FC2"
+                android:endColor="#6FDCE3"
+                android:type="linear" />
+            <corners
+                android:topLeftRadius="16dp"
+                android:topRightRadius="16dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+</layer-list>
