@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object NetworkConfig {
 
-    private const val BASE_URL = "https://3a61-2404-c0-5c40-00-3ac0-10ba.ngrok-free.app/"
+    private const val BASE_URL = "https://b32f-2404-c0-2120-00-45f-b88a.ngrok-free.app/"
 
     fun getRetrofit(): Retrofit {
         return Retrofit.Builder()
